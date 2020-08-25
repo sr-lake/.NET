@@ -8,10 +8,13 @@ CREATE TABLE Contact
 	Phone VARCHAR(11) NULL,
 )
 
+
+
 CREATE TABLE UserLogin
 (
 	UserName VARCHAR(20) NOT NULL CONSTRAINT UserLogin_PK PRIMARY KEY,
 	Password VARCHAR(250) NOT NULL
 )
+
 
 INSERT INTO UserLogin VALUES ('admin', 'hvZeKKdU4acbLflANhWmxDbDLEKnWhDQKBOWG4bx5Cg=')
